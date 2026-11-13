@@ -32,12 +32,15 @@ def main() -> None:
 
         # isValid can be true or false depending if validate_ip determins it to be an invalid id or valid ip
         isValid = validate_ip(userinput)
+    # if there is an error with the input that can cause a crash it will print "Invalid IP address" instead of crashing the program
     except ValueError:
         print("Invalid IP address")
 
+    # if isValid == True it will print "Valid IP address"
     if isValid:
         print("Valid IP address")
     else:
+        # it will print "Invalid IP address"
         print("Invalid IP address")
 
 if __name__ == "__main__":
