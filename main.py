@@ -11,6 +11,9 @@ def isPasswordValid(password: str) -> bool:
     return st.validatePassword(password)
 
 def main() -> None:
+    validIP = False
+    validPassword = False
+
     try:
         # asks the user to input an ip address and checks if its valid.
         ipinput = str(input("Please enter an IP: "))
