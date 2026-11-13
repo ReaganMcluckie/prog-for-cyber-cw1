@@ -4,7 +4,7 @@
 - B01888719
 
 # How The Program Works
-The functionalities of this program are bellow
+The functionalities of this program are below
 
 - Display Username and IP address
 - Add a new field using an input to give it a name and value
