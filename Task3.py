@@ -11,6 +11,10 @@ def validate_ip(ip: str) -> bool:
     if len(parts) != 4:
         isIpValid = False
 
+    # Ensures the ip has exactly 3 "."
+    if ip.count(".") != 3:
+        isIpValid = False
+
     # loops through the parts of the ip address to make sure they are valid numbers between 0 and 255
     for part in parts:
         if not part.isdigit():
@@ -35,6 +39,7 @@ def main() -> None:
     # if there is an error with the input that can cause a crash it will print "Invalid IP address" instead of crashing the program
     except ValueError:
         print("Invalid IP address")
+        return
 
     # if isValid == True it will print "Valid IP address"
     if isValid:
