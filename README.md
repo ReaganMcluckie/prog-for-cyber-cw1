@@ -17,7 +17,7 @@ This asks the user to enter a password 10 times. The correct password is stored 
 This asks the user to enter a password with a defined password in a variable. There is a maximum amount of attempts the user can try and when they reach the maximum the user is stopped being asked to enter a password and it lets them know that they have entered the maximum amount of attempts
 
 ## Login Authentication
-Promts the user to enter a username and password and comapres it to the username and password stored in the function. It gives you a maximum number of login attempts and if you fail to login within the maximum attempts it stops asking you for login details and displays a message that the account has been frozen for 24 hours
+Prompts the user to enter a username and password and compares it to the username and password stored in the function. It gives you a maximum number of login attempts and if you fail to login within the maximum attempts it stops asking you for login details and displays a message that the account has been frozen for 24 hours
 
 ## Exit
 Allows the user to exit the program printing "Thank you for using the security tool"
