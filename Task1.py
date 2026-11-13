@@ -1,5 +1,6 @@
-# REAGAN MCLUCKIE | 07/10/2026 | 30226399 | B01888719
+# REAGAN MCLUCKIE | 30226399 | B01888719
 def cliMenu() -> None:
+    # printing the options to allow you to choose what you want to run
     print("1. Security Event Counter")
     print("2. Brute-Force Simulation")
     print("3. Login Authentication")
